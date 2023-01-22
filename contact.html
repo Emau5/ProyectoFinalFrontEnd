@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Front End - Curriculum Vitae - Emanuel Ramirez</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <div class="principal">
+        <div class="lateralizquierdo">
+            <img  class="perfil" src="img/perfil.jpg" title="Foto de Perfil de Emanuel Ramirez" alt="Foto de Perfil de Emanuel Ramirez">
+            <h3>
+                Datos Personales:
+            </h3>
+            <p>
+                DNI: 33.617.093.<br>
+                Estado Civil: Casado. Una Hija.<br>
+                Nacionalidad: Argentino.<br>
+                Fecha de nacimiento: Julio 23 de 1988.<br>
+                Edad: 34 años.<br>
+                CUIL: 20-33617093-2.<br>
+                Domicilio: Martinez de Estrada Nº 7867.<br>
+                (Entre Sanchez de Loria y Colombres) B° 7 de Septiembre, Rosario.<br>
+                Tel: (0341) 451-5561.<br>
+                Celular: (0341) 156-963206.<br>
+                E-mail: <email>emmadc06@gmail.com</email>; <email>emau5@hotmail.com</email>.<br>
+            </p>
+            <h3>
+                Referencias:
+            </h3>
+            <ul>
+                <li>Ivana, TEL: 3416-963206.</li>
+                <li>Horacio, TEL: 3416-433814.</li>
+                <li>Alejandra, TEL: 3415-763246.</li>
+            </ul>
+        </div>
+        <div class="lateralderecho">
+            <div class="titulo">
+                <h1>
+                    Emanuel Horacio Ramirez
+                </h1>
+                <h2>
+                    Curriculum Vitae
+                </h2>
+            </div>
+            <h3>
+                Contacto:
+            </h3>
+            <form action="contacto" method="post">
+                <label for="nombre">
+                    Nombre
+                </label>
+                <input type="text" name="nombre" placeholder="Tu nombre" autofocus required/>
+                <label for="email">
+                    E-mail
+                </label>
+                <input type="email" name="email" placeholder="Tu Email" required/>
+                <label for="telefono">
+                    Telefono
+                </label>
+                <input type="tel" name="telefono" placeholder="Numero de Telefono" />
+                <br>
+                <textarea id="textarea" name="textarea" rows="5" cols="70" placeholder="Dejame tu Mensaje aqui..." maxlength="700"  required></textarea>
+                <br>
+                <input type="reset" class="boton" value="Borrar Todo" />
+                <input type="submit" class="boton" value="Enviar" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>

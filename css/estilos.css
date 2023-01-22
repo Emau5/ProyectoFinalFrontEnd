@@ -30,6 +30,7 @@ body {
 .lateralderecho {
     background-color: white;
     margin-top: 50px;
+    width: 1500px;
 }
 
 .perfil {
@@ -37,22 +38,69 @@ body {
     display: block;
 }
 
+h1 {
+    font-size: 43px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
 h1, h2 {
+    font-weight: bolder;
     text-align: center;
+    word-spacing: 12px;
+    letter-spacing: 7px;
+    margin: 15px;
 }
 
 h3 {
     margin-left: 40px;
     margin-top: 70px;
+    border-bottom: 3px ridge rgb(255, 200, 0);
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 .titulo {
     background-color: rgb(255, 200, 0);
     margin-top: 30px;
-    padding: 40px;
+    padding: 30px;
 }
 
-p {
+p, li, form {
     margin-left: 20px;
-    
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: left;
+    text-shadow: 2px 2px 3px #aaa;
+}
+
+form {
+    text-align: center;
+    margin: 30px;
+}
+
+.boton {
+    color: #444;
+    background-color: rgb(255, 200, 0);
+    font-size: 25px;
+    margin: 15px;
+    border: 1px solid #555;
+    border-bottom: 5px solid #555;
+    border-right: 5px solid #555;
+}
+
+.boton:hover {
+    background-color: rgb(155, 100, 0);
+    color: white;
+}
+
+.boton:active {
+    background-color: rgb(105, 50, 0);
+    color: rgb(255, 200, 0);
+}
+
+textarea, input {
+    margin-top: 30px;
+    border: 3px ridge rgb(255, 200, 0);
 }
