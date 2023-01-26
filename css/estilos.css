@@ -133,6 +133,7 @@ footer {
     margin-top: 80px;
     text-align: center;
     vertical-align: bottom;
+    transition: 4s all;
 
 }
 
@@ -152,7 +153,7 @@ nav {
 }
 
 nav a {
-    font-size: 20px;
+    font-size: 24px;
     flex: 1;
     height: 100%;
     display: flex;
@@ -161,7 +162,7 @@ nav a {
     justify-content: center;
     text-align: center;
     color: black;
-    transition: .02 ease-in-out all;
+    transition: 2s ease-in-out all;
     font-weight: bold;
 }
 
@@ -172,18 +173,29 @@ nav a:hover {
 
 /**Media Queries**/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 660px) {
 
     .principal {
         display: block;
+        width: fit-content;
+    }
+
+    .lateralizquierdo {
+        max-width: 660px;
     }
 
     .lateralderecho {
         width: fit-content;
     }
 
-    nav a {
+    nav {
         font-size: 14px;
+        display: contents;
     }
 
+    nav a {
+        flex: 0;
+        margin: 5px;
+        border: 3px ridge rgb(255, 200, 0);
+    }
 }
