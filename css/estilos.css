@@ -80,7 +80,7 @@ h3 {
 }
 
 p, li, form {
-    
+
     margin-left: 40px;
     margin-right: 20px;
     font-size: 18px;
@@ -180,6 +180,10 @@ nav a:hover {
 
     .lateralderecho {
         width: fit-content;
+    }
+
+    nav a {
+        font-size: 14px;
     }
 
 }
