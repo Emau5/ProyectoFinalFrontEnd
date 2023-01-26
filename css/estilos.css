@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -51,18 +52,18 @@ iframe {
 }
 
 h1 {
-    font-size: 43px;
+    font-size: 50px;
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 40px;
 }
 
 h1, h2 {
     font-weight: bolder;
     text-align: center;
-    word-spacing: 12px;
-    letter-spacing: 7px;
+    word-spacing: 20px;
+    letter-spacing: 8px;
     margin: 15px;
 }
 
@@ -80,10 +81,9 @@ h3 {
 }
 
 p, li, form {
-
     margin-left: 40px;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
     text-shadow: 2px 2px 3px #aaa;
 }
 
