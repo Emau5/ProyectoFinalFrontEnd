@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Proyecto Final Front End - Curriculum Vitae - Emanuel Ramirez</title>
+    <title>Info - Proyecto Final Front End - Curriculum Vitae - Emanuel Ramirez</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/a3dda9bc40.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bodyindex">    
     <nav>
         <a href="index.html">Inicio</a>
         <a href="info.html">Info</a>
@@ -17,6 +17,17 @@
     </nav>
     <div class="principal">
         <div class="lateralizquierdo">
+            <img  class="perfil" src="img/perfil.jpg" title="Foto de Perfil de Emanuel Ramirez" alt="Foto de Perfil de Emanuel Ramirez">
+            
+            <h3>
+                <i class="fa-solid fa-address-card"></i>
+                Contacto - <a href="contact.html" title="Dejame tu Mensaje!">Dejame tu Mensaje!</a>
+            </h3>
+            <form>
+                <input type="button" class="boton" value="Facebook" onclick="window.location.href = 'http://www.facebook.com/emau5'" />
+                <input type="button" class="boton" value="Linkedin" onclick="window.location.href = 'http://www.linkedin.com/in/emau5/'" />
+                <input type="button" class="boton" value="Instagram" onclick="window.location.href = 'http://www.instagram.com/emau5'" />
+            </form>
         </div>
         <div class="lateralderecho">
             <div class="titulo">
@@ -27,32 +38,9 @@
                     Curriculum Vitae
                 </h2>
             </div>
-            <h3>
-                <i class="fa-solid fa-address-card"></i>
-                Contacto:
-            </h3>
-            <form action="contacto" method="post">
-                <label for="nombre">
-                    Nombre
-                </label>
-                <input type="text" name="nombre" placeholder="Tu Nombre" autofocus required/>
-                <label for="email">
-                    Email
-                </label>
-                <input type="email" name="email" placeholder="Tu Email" required/>
-                <label for="telefono">
-                    Telefono
-                </label>
-                <input type="tel" name="telefono" placeholder="Número de Telefono" />
-                <br>
-                <textarea id="textarea" name="textarea" rows="5" cols="30" placeholder="Dejame tu Mensaje aqui..." maxlength="700"  required></textarea>
-                <br>
-                <input type="reset" class="boton" value="Borrar Todo" />
-                <input type="submit" class="boton" value="Enviar" />
-                <input type="button" class="boton" value="Volver Atras" onclick="window.location.href = 'index.html'" />
-            </form>
+            <iframe src="datospersonales.html" title="menuiframe"></iframe>
             <footer>
-                <h3> </h3>
+                <h3><!-- Linea Divisoria --> </h3>
                 <p>Autor: Emanuel Horacio Ramirez - 2023. Cel: 341-6963206. Emmadc06@gmail.com.</p>
                 <p>
                     <a href="http://www.facebook.com/emau5"><img src="img/icons8-facebook-60.png" alt="facebook icon"></img></a>

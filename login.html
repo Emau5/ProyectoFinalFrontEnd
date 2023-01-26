@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Proyecto Final Front End - Curriculum Vitae - Emanuel Ramirez</title>
+    <title>Login - Proyecto Final Front End - Curriculum Vitae - Emanuel Ramirez</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/a3dda9bc40.js" crossorigin="anonymous"></script>
 </head>
@@ -28,24 +28,19 @@
                 </h2>
             </div>
             <h3>
-                <i class="fa-solid fa-address-card"></i>
-                Contacto:
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Login:
             </h3>
             <form action="contacto" method="post">
-                <label for="nombre">
-                    Nombre
-                </label>
-                <input type="text" name="nombre" placeholder="Tu Nombre" autofocus required/>
                 <label for="email">
-                    Email
+                    E-mail
                 </label>
-                <input type="email" name="email" placeholder="Tu Email" required/>
-                <label for="telefono">
-                    Telefono
-                </label>
-                <input type="tel" name="telefono" placeholder="Número de Telefono" />
+                <input type="email" name="email" placeholder="Usuario / E-mail" autofocus required/>
                 <br>
-                <textarea id="textarea" name="textarea" rows="5" cols="30" placeholder="Dejame tu Mensaje aqui..." maxlength="700"  required></textarea>
+                <label>
+                    Contraseña
+                </label>
+                <input type="password" name="password" placeholder="Tu Contraseña" required />
                 <br>
                 <input type="reset" class="boton" value="Borrar Todo" />
                 <input type="submit" class="boton" value="Enviar" />
