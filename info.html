@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info  - Proyecto Final Front End - Curriculum Vitae - Emanuel Ramirez</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/a3dda9bc40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <script src="js/main.js"></script>
 </head>
 <body class="bodyindex">    
     <nav>
@@ -17,9 +26,10 @@
         <a href="info.html">Info</a>
         <a href="login.html">Login</a>
         <a href="contact.html">Contacto</a>
+        <a href="#" class="tema" onclick="tema()">Cambiar Tema</a>
     </nav>
-    <div class="principal">
-        <div class="lateralizquierdo">
+    <div class="principalinfo">
+        <div class="lateralizquierdoinfo">
             <img  class="perfil" src="img/perfil.jpg" title="Foto de Perfil de Emanuel Ramirez" alt="Foto de Perfil de Emanuel Ramirez">
             <h3>
                 <i class="fa-solid fa-brain"></i>
@@ -56,7 +66,7 @@
                 <input type="button" class="boton" value="Instagram" onclick="window.location.href = 'http://www.instagram.com/emau5'" />
             </form>
         </div>
-        <div class="lateralderecho">
+        <div class="lateralderechoinfo">
             <div class="titulo">
                 <h1>
                     Emanuel Horacio Ramirez
@@ -65,7 +75,9 @@
                     Curriculum Vitae
                 </h2>
             </div>
-            <p style="color: #777; font-style: italic;">
+            <div class="boton" id="boton" onclick="info()">Info</div>
+            <p id="info" class="none" style="color: #777; font-style: italic;">
+                Esta fue el index original que quise conservar para mostrar un formato tipo curriculum original.<br>
                 Aca se encuentra toda la Información en una sola página!
             </p>
             <h3>
@@ -117,17 +129,7 @@
                 Movilidad Propia.<br>
                 Licencia de conducir tipo A21 y B1.
             </p>
-            <footer>
-                <h3> </h3>
-                <p>Autor: Emanuel Horacio Ramirez - 2023. Cel: 341-6963206. Emmadc06@gmail.com.</p>
-                <p>
-                    <a href="http://www.facebook.com/emau5"><img src="img/icons8-facebook-60.png" alt="facebook icon"></img></a>
-                    <a href="https://www.linkedin.com/in/emau5/"><img src="img/icons8-linkedin-60.png" alt="linkedin icon"></img></a>
-                    <a href="http://www.instagram.com/emau5"><img src="img/icons8-instagram-60.png" alt="instagram icon"></img></a>
-                    <img src="img/icons8-google-pixel-6-60.png" alt="phone icon">
-                    <img src="img/icons8-gmail-60.png" alt="gmail icon">
-                </p>
-            </footer>
+            <iframe src="footer.html" title="footeriframe" class="footeriframe" frameborder="0"></iframe>
         </div>
     </div>
 </body>
